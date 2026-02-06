@@ -30,10 +30,11 @@ Step 2: Compile lammps with mace or use the provided executable
 
  # To run lammps
  Step 4: Run lammps using the job script provided. You need input and a structure file. 
-         --> Input file contains the control for running the commands.
-         --> Structure file contains the coordinates.
-         --> run serially by using. lmp -in input. 
-         --> run on cores using the attached job submission script.
+ 
+           -->Input file contains the control for running the commands.
+           -->Structure file contains the coordinates.
+           -->run serially by using. lmp -in input. 
+           -->run on cores using the attached job submission script.
  
 
 
