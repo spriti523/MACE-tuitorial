@@ -98,7 +98,7 @@ cmake -DCMAKE_INSTALL_PREFIX=$(pwd) \
 
 ```bash
 make -j
-make install
+make install ( or simply run sh build.sh) as it already contains the above. Note: add appropriate path to your own libtorch folder in -DCMAKE_PREFIX_PATH=$(pwd)/../../libtorch \
 ```
 
 For more detailed information on building LAMMPS with CMake, see the official documentation:
